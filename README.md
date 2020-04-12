@@ -95,6 +95,7 @@ If it doesn't work right away, you might want to check out [this StackOverflow t
 9. (Optional) If you do any sort of React development, run the following command:
 
 ```
+npm install
 npm run watch
 ```
 
