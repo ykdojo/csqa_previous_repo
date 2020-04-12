@@ -1,0 +1,36 @@
+.ed-select.custom-select {
+    height: calc(2rem + 2px);
+}
+
+img.ed-plus-sign {
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover.ed-plus-sign {
+    opacity: 0.5;
+}
+
+a.ed-username {
+    color: #b72bcf;
+}
+
+.btn.btn-primary.btn-link.ed-edit-button {
+    color: #b72bcf;
+}
+
+.btn.btn-primary.btn-link.ed-edit-button:active {
+    opacity: 0.6;
+}
+
+.ReactModal__Overlay {
+    z-index: 9999;
+}
+
+/* More info about the following here: https://stackoverflow.com/questions/46339063/ios-11-safari-bootstrap-modal-text-area-outside-of-cursor */
+body.iOS-bug-fix-caret{ position: fixed; width: 100%; }
